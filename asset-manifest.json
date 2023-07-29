@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Real-Company-project/static/css/main.61127509.css",
+    "main.js": "/Real-Company-project/static/js/main.3b559591.js",
+    "static/media/logo.svg": "/Real-Company-project/static/media/logo.21d149060d62426684fefeaab4074abf.svg",
+    "index.html": "/Real-Company-project/index.html",
+    "main.61127509.css.map": "/Real-Company-project/static/css/main.61127509.css.map",
+    "main.3b559591.js.map": "/Real-Company-project/static/js/main.3b559591.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61127509.css",
+    "static/js/main.3b559591.js"
+  ]
+}
