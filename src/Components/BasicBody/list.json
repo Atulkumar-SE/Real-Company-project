@@ -1,0 +1,44 @@
+
+
+[
+    {
+        "title": "Home",
+        "path": "/"
+    },
+    {
+        "title": "Services",
+        "path": "/services"
+    },
+    {
+        "title": "Solutions",
+        "path": "/solutions",
+        "icon": "⌄",
+        "children": [
+            {
+              "title": "Nested Item 1",
+              "path": "/nested-item-1"
+            },
+            {
+              "title": "Nested Item 2",
+              "path": "/nested-item-2"
+            }
+          ]
+    },
+    {
+        "title": "Partners",
+        "path": "/partners"
+    },
+    {
+        "title": "Careers",
+        "path": "/career"
+    },
+    {
+        "title": "About Us",
+        "path": "/aboutus"
+    },
+    {
+        "title": "Contact US",
+        "path": "/contactus"
+    }
+    
+]
