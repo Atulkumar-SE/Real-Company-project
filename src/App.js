@@ -8,17 +8,20 @@ import Careers from './Components/Careers/Careers'
 import Contact from './Components/Contact/Contact'
 import Home from './Components/Home/Home'
 import AboutUs from './Components/AboutUs/AboutUs'
-import Header from './Components/BasicBody/Header'
 import Footer from './Components/BasicBody/Footer'
+import Navbar from './Components/BasicBody/ResponsiveNavbar/Navbar'
+import DataCenter from './Components/Services/ICTinfrastructure/DataCenter'
 
 const App = () => {
   return (
     <>
     <Router>
-      <Header/>
+      <Navbar/>
+    
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/services' element={<Services/>} />
+        <Route path='/Datacenter' element={<DataCenter/>} />
         <Route path='/solutions' element={<Solutions/>} />
         <Route path='/partners' element={<Partners/>} />
         <Route path='/careers' element={<Careers/>} />

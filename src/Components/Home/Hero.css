@@ -1,4 +1,86 @@
-.Hero{
-    font-size: 5rem;
-    color: olivedrab;
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  position: absolute;
+  width: 80%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.HoverBtn {
+  margin: auto;
+  width: 15rem;
+}
+.CircleHover {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid;
+}
+.HoverBtn:hover {
+  .CircleHover {
+    width: 15rem;
+  }
+}
+
+/* --------------Home Style---------------- */
+.WWA_Container {
+  width: 85%;
+  margin: auto;
+  padding: 6.25rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.WWA_Container img {
+  width: 60%;
+  height: 60%;
+}
+.WWA_Text {
+  background-color: aliceblue;
+  width: 50%;
+  right: 10%;
+  position: absolute;
+}
+
+.CWC{
+  background-image: url(../../Images/cwc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width:800px) {
+  .WWA_Container {
+   
+ 
+    padding: 3.25rem 0 20rem 0;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .WWA_Container img {
+    width: 100%;
+    height: 100%;
+  }
+  .WWA_Text {
+    width: 80%;
+   top: 40%;
+    position: absolute;
+  }
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import DataCenter from './ICTinfrastructure/DataCenter'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+      <DataCenter/>
+    </div>
   )
 }
 
