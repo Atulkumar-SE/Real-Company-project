@@ -1,14 +1,32 @@
 {
   "files": {
-    "main.css": "/Real-Company-project/static/css/main.61127509.css",
-    "main.js": "/Real-Company-project/static/js/main.3b559591.js",
+    "main.css": "/Real-Company-project/static/css/main.10823b2c.css",
+    "main.js": "/Real-Company-project/static/js/main.7a09c288.js",
+    "static/media/DataCenter.png": "/Real-Company-project/static/media/DataCenter.1d8374f23ebcad32d356.png",
+    "static/media/About.png": "/Real-Company-project/static/media/About.187f2264e7b2cd6d1979.png",
+    "static/media/Career.png": "/Real-Company-project/static/media/Career.6cb867f7f7e711404221.png",
+    "static/media/sliderimage4.png": "/Real-Company-project/static/media/sliderimage4.488f7c5ddfea14bd6788.png",
+    "static/media/HomeWhoWeAre.png": "/Real-Company-project/static/media/HomeWhoWeAre.50d5a0e3fbc47278ce5b.png",
+    "static/media/sliderimage3.png": "/Real-Company-project/static/media/sliderimage3.52c1a10258019628c29a.png",
+    "static/media/sliderimage1.png": "/Real-Company-project/static/media/sliderimage1.acf955ff76128881637e.png",
+    "static/media/cwc.png": "/Real-Company-project/static/media/cwc.d7d0eaa8ee43222fd236.png",
+    "static/media/sliderimage2.png": "/Real-Company-project/static/media/sliderimage2.f7d97389db7af237b39a.png",
+    "static/media/ncert.png": "/Real-Company-project/static/media/ncert.0be6275077c2f3d3f8e5.png",
+    "static/media/Partner.png": "/Real-Company-project/static/media/Partner.303ff520481671d195a0.png",
+    "static/media/ServiceBg.png": "/Real-Company-project/static/media/ServiceBg.c7cf44a05e3168be16eb.png",
+    "static/media/CocaCola.png": "/Real-Company-project/static/media/CocaCola.82211fdd83a36c927b12.png",
+    "static/media/Focus.png": "/Real-Company-project/static/media/Focus.648ecdfeb2dc1522ceb8.png",
+    "static/media/strength.png": "/Real-Company-project/static/media/strength.738f170b1e4677fe5c98.png",
+    "static/media/Expertise.png": "/Real-Company-project/static/media/Expertise.bd1a83ac628f61466a28.png",
+    "static/media/NSIC.png": "/Real-Company-project/static/media/NSIC.23d425cb2d69e00dfc30.png",
+    "static/media/footer background.png": "/Real-Company-project/static/media/footer background.7cdffa8dd8bfef8c42cc.png",
     "static/media/logo.svg": "/Real-Company-project/static/media/logo.21d149060d62426684fefeaab4074abf.svg",
     "index.html": "/Real-Company-project/index.html",
-    "main.61127509.css.map": "/Real-Company-project/static/css/main.61127509.css.map",
-    "main.3b559591.js.map": "/Real-Company-project/static/js/main.3b559591.js.map"
+    "main.10823b2c.css.map": "/Real-Company-project/static/css/main.10823b2c.css.map",
+    "main.7a09c288.js.map": "/Real-Company-project/static/js/main.7a09c288.js.map"
   },
   "entrypoints": [
-    "static/css/main.61127509.css",
-    "static/js/main.3b559591.js"
+    "static/css/main.10823b2c.css",
+    "static/js/main.7a09c288.js"
   ]
 }
