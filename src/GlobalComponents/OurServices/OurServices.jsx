@@ -2,20 +2,22 @@ import React from "react";
 import Content from "./Content";
 import { Card } from "./Card";
 
-const SuccessCard = () => {
+const OurServices = () => {
   return (
     
-    <div className=" grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1rem] sm:gap-[4rem]   ">
+    <div className=" grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1rem] sm:gap-[4rem]  ">
       {Content.map((content) => (
         <Card className=""
           key={content.id}
-          image={content.image}
+          icon={content.icon}
           title={content.title}
           text={content.text}
+          path={content.path}
+          list={content.list}
         />
       ))}
     </div>
   );
 };
 
-export default SuccessCard;
+export default OurServices;

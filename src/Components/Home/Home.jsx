@@ -4,11 +4,8 @@ import Hero from "./Hero";
 import { Link } from "react-router-dom";
 import WelcomeCard from "../../GlobalComponents/HomeWelcomeCard/WelcomeCard";
 import WWA from "../../Images/HomeWhoWeAre.png";
-import cwc from "../../Images/cwc.png";
-import cocacola from "../../Images/cocacola.png";
-import ncert from "../../Images/ncert.png";
-import nsic from "../../Images/nsic.png";
 import SuccessCard from "../../GlobalComponents/SuccessStoryCard/SuccessCard";
+import OurServices from "../../GlobalComponents/OurServices/OurServices";
 
 const Home = () => {
   return (
@@ -17,10 +14,10 @@ const Home = () => {
       <Hero />
       {/* -------------Welcome Section------------- */}
       <div className="w-[70%] m-auto text-center py-[6.25rem] ">
-        <h2 className="text-[2.5rem] text-[#002C78] font-bold">
+        <h2 className="text-[1.5rem] sm:text-[2.5rem] text-[#002C78] font-bold">
           WELCOME TO AARGUS INFOTEC
         </h2>
-        <p className="text-[1rem] pt-8">
+        <p className="text-[1rem] pt-8 text-justify">
           Aargus Infotec Pvt. Ltd. (AIPL) was incorporated, in 2012, with the
           underlying objectives of honesty, transparency, accountability and
           sublime business ethics. Since then, it has carved out a niche in the
@@ -69,16 +66,38 @@ const Home = () => {
         </div>
       </div>
       {/* ---------------------Our Success Stories---------------------- */}
-    
-      <div className="text-center w-[85%] m-auto">
-        <h1 className="text-[3.75rem] text-[#002C78]">Our Success Stories</h1>
-        <p className="text-[1.5rem]">
+
+      <div className=" w-[85%] m-auto py-[3.25rem] ">
+        <h1 className="text-[2.75rem] sm:text-[3.75rem] text-[#002C78] text-center">
+          Our Success Stories
+        </h1>
+        <p className="text-[1.5rem] text-center">
           Gain insights on how our services actually impacted other businesses !
         </p>
-          <div>
-        <SuccessCard/>
+        <div className=" mt-[3rem]">
+          <SuccessCard />
+          <Link to="/Aboutus" className="flex mt-9">
+            <div className="HoverBtn text-[#047FCC] float-left pt-6">
+              <div className="CircleHover duration-500 "></div>
+              <button className=" items-center flex gap-3 px-4 text-xl font-semibold ">
+                <BsArrowRight className="text-3xl " /> View More Stories
+              </button>
+            </div>
+          </Link>
+        </div>
       </div>
+      {/* ---------------------Our Services---------------------- */}
+      <div className="Services bg-slate-600 py-[4rem] flex-col justify-center items-center  m-auto place-items-center ">
+        <h1 className="text-center text-[2rem] sm:text-[2.75rem] font-semibold text-white ">OUR SERVICES</h1>
+        <div className="w-[85%] m-auto flex justify-center pt-10">
+          <OurServices/>
+        </div>
+        
       </div>
+
+      
+
+
     </>
   );
 };

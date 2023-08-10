@@ -8,6 +8,7 @@ const Partners = () => {
         <h1 className="text-[5rem] ">Nexus Alliance</h1>
         <p className="text-[1.8rem] w-[70%] mt-2">Unleashing Potential through Collaborative Excellence</p>
       </div>
+      
     </div>
   )
 }
