@@ -3,6 +3,7 @@
     background-image: url(../../Images/ServiceBg.png);
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
 
 }
 .Container{
@@ -48,3 +49,18 @@
     transform: rotateY(180deg);
 }
 
+/* ----------------------Customer Section-------------------------- */
+.Customer{
+    background-image: url(../../Images/Partner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ----------------------Customer Section-------------------------- */
+.CareerBg{
+    background-image: url(../../Images/CareerBg.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

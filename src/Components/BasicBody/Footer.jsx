@@ -16,9 +16,9 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full h-fit py-5 bg-[#002C78] text-white md:place-content-center ">
+    <footer className="w-full h-fit mt-[5rem] md:mt-[10rem] py-5 bg-[#002C78] text-white md:place-content-center ">
       {/* ------------------------footer just above------------------------ */}
-      <div className="FooterContact hidden md:flex justify-between place-items-center content-center items-center mx-[8rem] lg:px-[5.688rem] px-[2rem] py-[3rem] mt-[-5.5rem] ">
+      <div className="FooterContact  hidden md:flex justify-between place-items-center content-center items-center mx-[8rem] lg:px-[5.688rem] px-[2rem] py-[3rem] mt-[-5.5rem] ">
         <h1 className=" text-2xl lg:text-4xl font-semibold">
           Let's Start Conversation
         </h1>
