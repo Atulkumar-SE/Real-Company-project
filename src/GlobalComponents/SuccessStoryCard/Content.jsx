@@ -1,7 +1,7 @@
-import cwc from '../../Images/cwc.png';  
-import CocaCola from '../../Images/CocaCola.png';  
-import NSIC from '../../Images/NSIC.png';  
-import ncert from '../../Images/ncert.png';
+import cwc from '../../Images/Home/cwc.png';  
+import CocaCola from '../../Images/Home/CocaCola.png';  
+import NSIC from '../../Images/Home/NSIC.png';  
+import ncert from '../../Images/Home/ncert.png';
 
 const Content =[
     {

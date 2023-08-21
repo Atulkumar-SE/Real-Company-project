@@ -2,18 +2,21 @@ import React from "react";
 import Content from "./Content";
 import { Card } from "./Card";
 
-const PartnerBrandCard = () => {
+const TeamCard = () => {
   return (
-    <div className="grid  grid-cols-2 md:grid-cols-3  lg:grid-cols-6 gap-10 sm:gap-1 place-items-center ">
+    
+    <div className=" grid  grid-cols-1  md:grid-cols-3 gap-[3rem] sm:gap-[5rem]   ">
       {Content.map((content) => (
         <Card className=""
           key={content.id}
           image={content.image}
-         
+          name={content.name}
+          post={content.post}
+          socialmedia={content.socialmedia}
         />
       ))}
     </div>
   );
 };
 
-export default PartnerBrandCard;
+export default TeamCard;

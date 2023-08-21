@@ -3,12 +3,12 @@ import { BsArrowRight } from "react-icons/bs";
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
 import WelcomeCard from "../../GlobalComponents/HomeWelcomeCard/WelcomeCard";
-import WWA from "../../Images/HomeWhoWeAre.png";
-import CareerGirl from "../../Images/CareerGirl.png";
-import Customer from "../../Images/HomeCostumerBrandGroup.png";
+import WWA from "../../Images/Home/HomeWhoWeAre.png";
+import CareerGirl from "../../Images/Home/CareerGirl.png";
+import Customer from "../../Images/Home/HomeCostumerBrandGroup.png";
 import SuccessCard from "../../GlobalComponents/SuccessStoryCard/SuccessCard";
 import OurServices from "../../GlobalComponents/OurServices/OurServices";
-import PartnerBrandCard from "../../GlobalComponents/PartnerBrandCard/PartnerBrandCard";
+import HomePartnerCard from "../../GlobalComponents/HomePartnerCard/HomePartnerCard";
 
 const Home = () => {
   return (
@@ -128,7 +128,7 @@ const Home = () => {
               Partners
             </h1>
             <div className=" my-[3.6rem] lg:ml-[10%]">
-              <PartnerBrandCard />
+              <HomePartnerCard/>
             </div>
             <Link to="/Aboutus" className=" float-left">
               <div className="HoverBtn text-white ">

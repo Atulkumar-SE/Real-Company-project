@@ -1,0 +1,34 @@
+.Contact_Hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../Images/Contact/Contact\ \(1\).png);
+  background-size: cover;
+}
+.LetsTalk{
+    width: 100%;
+  height: 90vh;
+  background-image: url(../../Images/Contact/SendMsgBg.png);
+  background-size: cover;
+}
+.FormContainer form input{
+    background: #002c784f;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 5px;
+    outline: none;
+}
+.FormContainer form .textArea{
+    height: 6rem;
+
+}
+
+form button{
+    width: fit-content;
+    border-radius: 5px;
+   padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4rem;
+    background-color: #002c78;
+}

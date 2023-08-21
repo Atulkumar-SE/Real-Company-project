@@ -22,9 +22,10 @@ const Footer = () => {
         <h1 className=" text-2xl lg:text-4xl font-semibold">
           Let's Start Conversation
         </h1>
+        <Link to="/contactus">
         <button className="px-[1.5rem] py-3 text-xl font-bold bg-[#002C78] ">
           Contact Us
-        </button>
+        </button></Link>
       </div>
       {/* ------------------------footer navbar------------------------ */}
       <div className="hidden md:block px-[6.25rem] pt-[3.62rem] pb-[28px] border-b border-white">

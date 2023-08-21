@@ -1,6 +1,6 @@
 /* ---------------------Our Services---------------------- */
 .Services{
-    background-image: url(../../Images/ServiceBg.png);
+    background-image: url(../../Images/Home/ServiceBg.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -51,14 +51,14 @@
 
 /* ----------------------Customer Section-------------------------- */
 .Customer{
-    background-image: url(../../Images/Partner.png);
+    background-image: url(../../Images/Home/Partner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 /* ----------------------Customer Section-------------------------- */
 .CareerBg{
-    background-image: url(../../Images/CareerBg.png);
+    background-image: url(../../Images/Home/CareerBg.png);
     background-position:top right;
     background-repeat: no-repeat;
     background-size: cover;

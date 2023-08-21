@@ -1,6 +1,6 @@
-import Focus from '../../Images/Focus.png';
-import Strength from '../../Images/strength.png';
-import Expertise from '../../Images/Expertise.png';
+import Focus from '../../Images/Home/Focus.png';
+import Strength from '../../Images/Home/strength.png';
+import Expertise from '../../Images/Home/Expertise.png';
 
 const Content =[
     {

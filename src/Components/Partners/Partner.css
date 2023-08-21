@@ -1,6 +1,7 @@
 .Partner_Hero{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../../Images/Partner.png);
+    
+    background-image: url(../../Images/Partner/PartnerHero.png);
     background-size: cover;
+   
+    background-repeat: no-repeat;
 }

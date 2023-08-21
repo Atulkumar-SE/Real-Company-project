@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to="/About">About Us</Link>
         </li>
         <div className="py-5">
-          <Button />
+        <Button />
         </div>
       </ul>
     </nav>

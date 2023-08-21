@@ -30,21 +30,7 @@ const Content =[
         id:5,
         image: Microsoft,
         alt:"Adobe",
-    },{
-        id:6,
-        image: Microsoft,
-        alt:"Adobe",
     },
-    {
-        id:7,
-        image: Microsoft,
-        alt:"Adobe",
-    },
-   
-  
-
-
-
 
   
 ];

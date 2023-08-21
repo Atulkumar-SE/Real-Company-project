@@ -3,10 +3,10 @@ import { Carousel } from "react-responsive-carousel";
 import "./Hero.css";
 import { BsArrowRight } from "react-icons/bs";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image1 from "../../Images/sliderimage1.png";
-import image2 from "../../Images/sliderimage2.png";
-import image3 from "../../Images/sliderimage3.png";
-import image4 from "../../Images/sliderimage4.png";
+import image1 from "../../Images/Home/sliderimage1.png";
+import image2 from "../../Images/Home/sliderimage2.png";
+import image3 from "../../Images/Home/sliderimage3.png";
+import image4 from "../../Images/Home/sliderimage4.png";
 const Hero = () => {
   const images = [
     {

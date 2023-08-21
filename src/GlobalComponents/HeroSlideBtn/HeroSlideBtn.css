@@ -1,0 +1,36 @@
+.SlideBtn{
+    width: 2.5rem;
+    height: 4rem;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    display:flex ;
+    justify-content: center;
+    cursor: pointer;
+}
+.Circle{
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50px;
+    margin-top: .5rem;
+    background-color: #fff;
+    animation: Slide 1.5s  ease infinite;
+    
+    
+}
+
+
+@keyframes Slide {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+      transform: translateY(2rem);
+      background-color: #ffffff67;
+    }
+    100% {
+        transform: translateY(0);
+      
+      }
+  }
+
+  
