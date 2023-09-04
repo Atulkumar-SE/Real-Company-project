@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "set HTTPS=true && set SSL_CRT_FILE=certificates/cert.pem && set SSL_KEY_FILE=certificates/key.pem && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,3 +49,5 @@
     "tailwindcss": "^3.3.3"
   }
 }
+
+

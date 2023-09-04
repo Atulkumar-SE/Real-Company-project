@@ -1,0 +1,66 @@
+/* ---------------------Our Services---------------------- */
+.Services{
+    background-image: url(../../Images/Home/ServiceBg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.Container{
+   
+    width: 15rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ServiceCard{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+.ServiceCard_Inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    transform-style: preserve-3d;
+}
+.ServiceCard:hover .ServiceCard_Inner{
+    transform: rotateY(180deg);
+}
+.ServiceCard_Front, .ServiceCard_Back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* .ServiceCard_Front{
+    box-shadow: inset 0px 0px 15px 1px #fff;
+} */
+.ServiceCard_Back{
+  
+    transform: rotateY(180deg);
+}
+
+/* ----------------------Customer Section-------------------------- */
+.Customer{
+    background-image: url(../../Images/Home/Partner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ----------------------Customer Section-------------------------- */
+.CareerBg{
+    background-image: url(../../Images/Home/CareerBg.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
